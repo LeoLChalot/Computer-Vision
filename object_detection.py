@@ -1,14 +1,3 @@
-"""
-Application de détection d'objets en temps réel via webcam.
-
-Utilise le modèle YOLOv4-tiny avec OpenCV DNN pour détecter et labelliser
-les objets visibles par la caméra. Affiche les bounding boxes colorées,
-le nom de l'objet, le score de confiance et le FPS.
-
-Contrôles :
-  - Q ou ESC : quitter l'application
-"""
-
 import os
 import sys
 import time

@@ -2,7 +2,7 @@
 
 Application Python de détection et labellisation d'objets en temps réel via webcam, utilisant **OpenCV** et le modèle **YOLOv4-tiny**.
 
-## 🔧 Stack Technique
+## Stack Technique
 
 | Composant        | Technologie         |
 |------------------|---------------------|
@@ -11,7 +11,7 @@ Application Python de détection et labellisation d'objets en temps réel via we
 | Dataset          | COCO (80 classes)   |
 | Langage          | Python 3.10+        |
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # 1. Créer et activer l'environnement virtuel
@@ -26,20 +26,20 @@ pip install -r requirements.txt
 python download_model.py
 ```
 
-## ▶️ Lancer l'application
+## Lancer l'application
 
 ```bash
 python object_detection.py
 ```
 
-## ⌨️ Contrôles
+## Contrôles
 
 | Touche    | Action                    |
 |-----------|---------------------------|
 | `Q`       | Quitter                   |
 | `ESC`     | Quitter                   |
 
-## 📦 Objets détectables (80 classes COCO)
+## Objets détectables (80 classes COCO)
 
 Personnes, véhicules (voiture, bus, camion, vélo, moto), animaux (chien, chat, oiseau, cheval),
 objets du quotidien (téléphone, ordinateur portable, tasse, bouteille, clavier, souris, livre, ciseaux),

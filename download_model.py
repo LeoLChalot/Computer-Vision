@@ -1,12 +1,3 @@
-"""
-Télécharge les fichiers du modèle YOLOv4-tiny nécessaires pour la détection d'objets.
-
-Fichiers téléchargés dans le dossier 'model/' :
-  - yolov4-tiny.weights  (~23 MB)
-  - yolov4-tiny.cfg
-  - coco.names (80 classes d'objets)
-"""
-
 import os
 import urllib.request
 import sys
@@ -21,7 +12,7 @@ FILES = {
 
 
 def download_file(url: str, dest_path: str) -> None:
-    """Télécharge un fichier avec une barre de progression."""
+    """Télécharge un fichier avec une barre de progression. """
     filename = os.path.basename(dest_path)
 
     if os.path.exists(dest_path):
